@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<style>
+    img {
+    width: 20%;
+    align-items:center;
+    }
+</style>
+    <h1 style="
+        font-size: 200%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        "
+    > Lisboa, Portugal </h1>
+</html>
