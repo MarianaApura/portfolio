@@ -1,14 +1,40 @@
 <!doctype html>
 <html lang="en">
-<style>
-    img {
-    width: 20%;
-    align-items:center;
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lisboa, Portugal</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
     }
-</style>
-    <h1 style="
-        font-size: 200%;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        "
-    > Lisboa, Portugal </h1>
+
+    body {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: clamp(1.8rem, 4vw, 3rem);
+      margin-bottom: 20px;
+    }
+
+    img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Lisboa, Portugal</h1>
+  <img src="lisboa.jpg" alt="Lisboa, Portugal">
+</body>
 </html>
